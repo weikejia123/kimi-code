@@ -1,0 +1,273 @@
+{
+  "schema_version": "9",
+  "project_id": "019fa34f-c657-7382-ab93-6295c50c34ea",
+  "scan_id": "019fa34f-c8a2-7841-82ad-d5d0c357bd5d",
+  "scanned_at": "2026-07-27T11:22:22Z",
+  "duration_ms": 261,
+  "is_git_repo": true,
+  "git": {
+    "root": "/Users/weikejia/CODE/my-agent-group/projects/coder-agent/kimi-code",
+    "branch": "wkj-dev",
+    "remotes": [
+      {
+        "name": "gitea",
+        "url": "http://localhost:3000/dzsoft/kimi-code.git",
+        "host": "localhost",
+        "owner": "dzsoft",
+        "repo": "kimi-code"
+      },
+      {
+        "name": "origin",
+        "url": "https://github.com/weikejia123/kimi-code.git",
+        "host": "github.com",
+        "owner": "weikejia123",
+        "repo": "kimi-code"
+      },
+      {
+        "name": "upstream",
+        "url": "https://github.com/MoonshotAI/kimi-code.git",
+        "host": "github.com",
+        "owner": "MoonshotAI",
+        "repo": "kimi-code"
+      }
+    ],
+    "head": "bf8e967d5",
+    "path_prefix": "",
+    "has_commit_hooks": false,
+    "has_upstream": true,
+    "is_detached_head": false,
+    "dirty_file_count": 0,
+    "has_untracked": true,
+    "ahead_count": 0,
+    "behind_count": 0,
+    "latest_tag": "@moonshot-ai/kimi-code@0.29.1",
+    "submodules": []
+  },
+  "detected_languages": [
+    {
+      "language": "TypeScript",
+      "files": 3393
+    },
+    {
+      "language": "Vue",
+      "files": 107
+    },
+    {
+      "language": "JavaScript",
+      "files": 75
+    },
+    {
+      "language": "C",
+      "files": 2
+    }
+  ],
+  "manifests": [
+    "Makefile",
+    "package.json"
+  ],
+  "key_files": [
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "Makefile",
+    "README.md",
+    "README.zh-CN.md"
+  ],
+  "key_dirs": [
+    ".agents",
+    ".github",
+    "apps",
+    "docs",
+    "packages",
+    "scripts"
+  ],
+  "manifests_detail": [
+    {
+      "path": "apps/kimi-code/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kimi-code",
+      "version": "0.29.1"
+    },
+    {
+      "path": "apps/kimi-inspect/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kimi-inspect",
+      "version": "0.0.0"
+    },
+    {
+      "path": "apps/kimi-web/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kimi-web",
+      "version": "0.1.2"
+    },
+    {
+      "path": "apps/vis/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/vis",
+      "version": "0.1.1"
+    },
+    {
+      "path": "apps/vis/server/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/vis-server",
+      "version": "0.1.1"
+    },
+    {
+      "path": "apps/vis/web/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/vis-web",
+      "version": "0.1.1"
+    },
+    {
+      "path": "apps/vscode/package.json",
+      "kind": "package.json",
+      "name": "kimi-code",
+      "version": "0.6.5"
+    },
+    {
+      "path": "docs/package.json",
+      "kind": "package.json",
+      "name": "kimi-code-docs",
+      "version": null
+    },
+    {
+      "path": "package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/monorepo",
+      "version": "0.1.1"
+    },
+    {
+      "path": "packages/acp-adapter/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/acp-adapter",
+      "version": "0.3.5"
+    },
+    {
+      "path": "packages/agent-core-v2/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/agent-core-v2",
+      "version": "0.2.0"
+    },
+    {
+      "path": "packages/agent-core/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/agent-core",
+      "version": "0.15.6"
+    },
+    {
+      "path": "packages/kaos/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kaos",
+      "version": "0.1.6"
+    },
+    {
+      "path": "packages/kap-server/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kap-server",
+      "version": "0.1.0"
+    },
+    {
+      "path": "packages/klient/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/klient",
+      "version": "0.1.0"
+    },
+    {
+      "path": "packages/kosong/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kosong",
+      "version": "0.5.5"
+    },
+    {
+      "path": "packages/migration-legacy/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/migration-legacy",
+      "version": "0.1.16"
+    },
+    {
+      "path": "packages/minidb/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/minidb",
+      "version": "0.2.0"
+    },
+    {
+      "path": "packages/node-sdk/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kimi-code-sdk",
+      "version": "0.14.0"
+    },
+    {
+      "path": "packages/oauth/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kimi-code-oauth",
+      "version": "0.2.2"
+    },
+    {
+      "path": "packages/pi-tui/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/pi-tui",
+      "version": "0.80.8"
+    },
+    {
+      "path": "packages/protocol/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/protocol",
+      "version": "0.5.0"
+    },
+    {
+      "path": "packages/telemetry/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/kimi-telemetry",
+      "version": "0.1.1"
+    },
+    {
+      "path": "packages/transcript/package.json",
+      "kind": "package.json",
+      "name": "@moonshot-ai/transcript",
+      "version": "0.0.1"
+    }
+  ],
+  "package_managers": [
+    "pnpm"
+  ],
+  "timeline": {
+    "first_commit_at": "2026-05-22T15:54:50+08:00",
+    "last_commit_at": "2026-07-26T14:32:59+08:00",
+    "shallow_clone": false,
+    "last_file_modified_at": "2026-07-26T14:07:40Z",
+    "last_core_file_modified_at": "2026-07-26T13:57:15Z",
+    "local_arrival_at": "2026-07-26T13:54:32Z",
+    "local_arrival_source": "git_dir_birthtime",
+    "local_arrival_approximate": true
+  },
+  "totals": {
+    "file_count": 4009,
+    "size_bytes": 36278377,
+    "scope": "excluding_ignored_dirs"
+  },
+  "ignored_dirs": [
+    ".git",
+    ".next",
+    ".pnpm-store",
+    ".venv",
+    ".wake-project",
+    ".yarn",
+    "__pycache__",
+    "bower_components",
+    "build",
+    "dist",
+    "node_modules",
+    "target",
+    "venv"
+  ],
+  "manifest_parse_errors": [],
+  "nested_repos": [],
+  "has_ci_config": true,
+  "warnings": [],
+  "scan_completeness": {
+    "level": "full",
+    "reasons": []
+  }
+}

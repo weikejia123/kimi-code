@@ -1,0 +1,2108 @@
+{
+  "schema_version": "9",
+  "project_id": "019fa34f-c657-7382-ab93-6295c50c34ea",
+  "scan_id": "019fa34f-c8a2-7841-82ad-d5d0c357bd5d",
+  "scanned_at": "2026-07-27T11:22:22Z",
+  "tech_stack": [
+    {
+      "name": "@moonshot-ai/acp-adapter",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core-v2",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kap-server",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-oauth",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-sdk",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-telemetry",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-web",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/migration-legacy",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/pi-tui",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/vis-server",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/vis-web",
+      "category": "library",
+      "version": "workspace:*",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@types/semver",
+      "category": "library",
+      "version": "^7.7.0",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@types/yazl",
+      "category": "library",
+      "version": "^2.4.6",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "Commander.js",
+      "category": "framework",
+      "version": "^13.1.0",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "chalk",
+      "category": "library",
+      "version": "^5.4.1",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "cli-highlight",
+      "category": "library",
+      "version": "^2.1.11",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "jimp",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "pathe",
+      "category": "library",
+      "version": "^2.0.3",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "postject",
+      "category": "library",
+      "version": "1.0.0-alpha.6",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "semver",
+      "category": "library",
+      "version": "^7.7.4",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "smol-toml",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "tsx",
+      "category": "library",
+      "version": "^4.21.0",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "yazl",
+      "category": "library",
+      "version": "^3.3.1",
+      "dev": true,
+      "source": "apps/kimi-code/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core-v2",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@moonshot-ai/transcript",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "category": "library",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "category": "library",
+      "version": "^5.74.4",
+      "dev": false,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@types/react",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@types/react-dom",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "category": "library",
+      "version": "^4.4.1",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "React",
+      "category": "framework",
+      "version": "^19.1.0",
+      "dev": false,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "React DOM",
+      "category": "library",
+      "version": "^19.1.0",
+      "dev": false,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "framework",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "TypeScript",
+      "category": "tool",
+      "version": "6.0.2",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "Vite",
+      "category": "tool",
+      "version": "^6.3.3",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "Vitest",
+      "category": "tool",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "apps/kimi-inspect/package.json"
+    },
+    {
+      "name": "@chenglou/pretext",
+      "category": "library",
+      "version": "0.0.8",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@fontsource-variable/inter",
+      "category": "library",
+      "version": "5.2.8",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@fontsource-variable/jetbrains-mono",
+      "category": "library",
+      "version": "^5.2.8",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@iconify-json/ri",
+      "category": "library",
+      "version": "^1.2.10",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@iconify-json/tabler",
+      "category": "library",
+      "version": "^1.2.35",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@vitejs/plugin-vue",
+      "category": "library",
+      "version": "^5.2.4",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@xterm/addon-fit",
+      "category": "library",
+      "version": "^0.11.0",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "@xterm/xterm",
+      "category": "library",
+      "version": "^6.0.0",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "TypeScript",
+      "category": "tool",
+      "version": "6.0.2",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "Vite",
+      "category": "tool",
+      "version": "^6.3.3",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "Vitest",
+      "category": "tool",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "Vue",
+      "category": "framework",
+      "version": "^3.5.35",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "katex",
+      "category": "library",
+      "version": "^0.17.0",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "markstream-vue",
+      "category": "library",
+      "version": "^1.0.4",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "mermaid",
+      "category": "library",
+      "version": "^11.15.0",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "shiki",
+      "category": "library",
+      "version": "^4.3.0",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "stream-markdown",
+      "category": "library",
+      "version": "^0.0.16",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "unplugin-icons",
+      "category": "library",
+      "version": "^23.0.0",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "vue-i18n",
+      "category": "library",
+      "version": "^11.4.5",
+      "dev": false,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "vue-tsc",
+      "category": "library",
+      "version": "~3.2.0",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "ws",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": true,
+      "source": "apps/kimi-web/package.json"
+    },
+    {
+      "name": "concurrently",
+      "category": "library",
+      "version": "^9.1.2",
+      "dev": true,
+      "source": "apps/vis/package.json"
+    },
+    {
+      "name": "@hono/node-server",
+      "category": "library",
+      "version": "^1.13.7",
+      "dev": false,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kosong",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "@types/yauzl",
+      "category": "library",
+      "version": "^2.10.3",
+      "dev": true,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "@types/yazl",
+      "category": "library",
+      "version": "^2.4.6",
+      "dev": true,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "Hono",
+      "category": "framework",
+      "version": "^4.7.7",
+      "dev": false,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "Vitest",
+      "category": "tool",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "tsx",
+      "category": "library",
+      "version": "^4.21.0",
+      "dev": true,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "yauzl",
+      "category": "library",
+      "version": "^3.3.0",
+      "dev": false,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "yazl",
+      "category": "library",
+      "version": "^3.3.1",
+      "dev": true,
+      "source": "apps/vis/server/package.json"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "category": "library",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "category": "library",
+      "version": "^5.74.4",
+      "dev": false,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "@tanstack/react-virtual",
+      "category": "library",
+      "version": "^3.13.5",
+      "dev": false,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "@types/react",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "@types/react-dom",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "category": "library",
+      "version": "^4.4.1",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "React",
+      "category": "framework",
+      "version": "^19.1.0",
+      "dev": false,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "React DOM",
+      "category": "library",
+      "version": "^19.1.0",
+      "dev": false,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "framework",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "TypeScript",
+      "category": "tool",
+      "version": "6.0.2",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "Vite",
+      "category": "tool",
+      "version": "^6.3.3",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "Vitest",
+      "category": "tool",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "react-router-dom",
+      "category": "library",
+      "version": "^7.5.2",
+      "dev": false,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "vite-plugin-singlefile",
+      "category": "library",
+      "version": "^2.3.3",
+      "dev": true,
+      "source": "apps/vis/web/package.json"
+    },
+    {
+      "name": "@base-ui/react",
+      "category": "library",
+      "version": "^1.0.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@fontsource-variable/inter",
+      "category": "library",
+      "version": "5.2.8",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-sdk",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@moonshot-ai/migration-legacy",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@radix-ui/react-accordion",
+      "category": "library",
+      "version": "^1.2.12",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@tabler/icons-react",
+      "category": "library",
+      "version": "^3.36.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "category": "library",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/diff",
+      "category": "library",
+      "version": "^8.0.0",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/katex",
+      "category": "library",
+      "version": "^0.16.8",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/node",
+      "category": "library",
+      "version": "^22.15.3",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/react",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/react-dom",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/react-scroll-to-bottom",
+      "category": "library",
+      "version": "^4.2.5",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/react-syntax-highlighter",
+      "category": "library",
+      "version": "^15.5.13",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@types/vscode",
+      "category": "library",
+      "version": "1.100.0",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "category": "library",
+      "version": "^4.4.1",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@vscode/test-cli",
+      "category": "library",
+      "version": "^0.0.11",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@vscode/test-electron",
+      "category": "library",
+      "version": "^2.5.2",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "@vscode/vsce",
+      "category": "library",
+      "version": "3.9.2",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "React",
+      "category": "framework",
+      "version": "^19.1.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "React DOM",
+      "category": "library",
+      "version": "^19.1.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "framework",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "Vite",
+      "category": "tool",
+      "version": "^6.3.3",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "Vitest",
+      "category": "tool",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "Zustand",
+      "category": "library",
+      "version": "^5",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "acorn",
+      "category": "library",
+      "version": "8.17.0",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "ahooks",
+      "category": "library",
+      "version": "^3.9.6",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "class-variance-authority",
+      "category": "library",
+      "version": "^0.7.1",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "clsx",
+      "category": "library",
+      "version": "^2.1.1",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "cmdk",
+      "category": "library",
+      "version": "^1.1.1",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "diff",
+      "category": "library",
+      "version": "^8.0.2",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "fuse.js",
+      "category": "library",
+      "version": "^7.1.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "heic-to",
+      "category": "library",
+      "version": "^1.0.2",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "immer",
+      "category": "library",
+      "version": "^11.1.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "katex",
+      "category": "library",
+      "version": "^0.17.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "next-themes",
+      "category": "library",
+      "version": "^0.4.6",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "ovsx",
+      "category": "library",
+      "version": "1.0.2",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "radix-ui",
+      "category": "library",
+      "version": "^1.4.3",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "react-markdown",
+      "category": "library",
+      "version": "^10.1.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "react-scroll-to-bottom",
+      "category": "library",
+      "version": "^4.2.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "react-syntax-highlighter",
+      "category": "library",
+      "version": "^16.1.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "rehype-katex",
+      "category": "library",
+      "version": "^7.0.1",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "remark-gfm",
+      "category": "library",
+      "version": "^4.0.1",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "remark-math",
+      "category": "library",
+      "version": "^6.0.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "shadcn",
+      "category": "library",
+      "version": "^3.6.2",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "sonner",
+      "category": "library",
+      "version": "^2.0.7",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "tailwind-merge",
+      "category": "library",
+      "version": "^3.4.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "tw-animate-css",
+      "category": "library",
+      "version": "^1.4.0",
+      "dev": false,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "vite-plugin-css-injected-by-js",
+      "category": "library",
+      "version": "^3.5.2",
+      "dev": true,
+      "source": "apps/vscode/package.json"
+    },
+    {
+      "name": "mermaid",
+      "category": "library",
+      "version": "^11.15.0",
+      "dev": false,
+      "source": "docs/package.json"
+    },
+    {
+      "name": "vitepress",
+      "category": "library",
+      "version": "^1.5.0",
+      "dev": true,
+      "source": "docs/package.json"
+    },
+    {
+      "name": "vitepress-plugin-llms",
+      "category": "library",
+      "version": "^1.10.0",
+      "dev": false,
+      "source": "docs/package.json"
+    },
+    {
+      "name": "vitepress-plugin-mermaid",
+      "category": "library",
+      "version": "^2.0.17",
+      "dev": false,
+      "source": "docs/package.json"
+    },
+    {
+      "name": "@arethetypeswrong/cli",
+      "category": "library",
+      "version": "0.18.2",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "@changesets/changelog-github",
+      "category": "library",
+      "version": "0.7.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "@changesets/cli",
+      "category": "library",
+      "version": "2.30.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "@microsoft/api-extractor",
+      "category": "library",
+      "version": "7.58.7",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "@types/node",
+      "category": "library",
+      "version": "^22.15.3",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "@vitest/coverage-v8",
+      "category": "library",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "TypeScript",
+      "category": "tool",
+      "version": "6.0.2",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "Vitest",
+      "category": "tool",
+      "version": "4.1.4",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "lint-staged",
+      "category": "library",
+      "version": "16.4.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "oxlint",
+      "category": "library",
+      "version": "1.59.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "oxlint-tsgolint",
+      "category": "library",
+      "version": "0.20.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "pkg-pr-new",
+      "category": "library",
+      "version": "0.0.75",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "publint",
+      "category": "library",
+      "version": "0.3.18",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "sherif",
+      "category": "library",
+      "version": "1.11.1",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "simple-git-hooks",
+      "category": "library",
+      "version": "2.13.1",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "tsdown",
+      "category": "library",
+      "version": "0.22.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "tsx",
+      "category": "library",
+      "version": "^4.21.0",
+      "dev": true,
+      "source": "package.json"
+    },
+    {
+      "name": "@agentclientprotocol/sdk",
+      "category": "library",
+      "version": "^0.23.0",
+      "dev": false,
+      "source": "packages/acp-adapter/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/acp-adapter/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kaos",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/acp-adapter/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-sdk",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/acp-adapter/package.json"
+    },
+    {
+      "name": "jimp",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": true,
+      "source": "packages/acp-adapter/package.json"
+    },
+    {
+      "name": "@antfu/utils",
+      "category": "library",
+      "version": "^9.3.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@anthropic-ai/sdk",
+      "category": "library",
+      "version": "^0.95.2",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@dagrejs/dagre",
+      "category": "library",
+      "version": "^1.1.4",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@google/genai",
+      "category": "library",
+      "version": "^1.49.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@jsquash/webp",
+      "category": "library",
+      "version": "^1.5.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@modelcontextprotocol/sdk",
+      "category": "library",
+      "version": "^1.29.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-oauth",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@moonshot-ai/minidb",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@moonshot-ai/protocol",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@mozilla/readability",
+      "category": "library",
+      "version": "^0.6.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/js-yaml",
+      "category": "library",
+      "version": "^4.0.9",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/picomatch",
+      "category": "library",
+      "version": "^4.0.3",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/react",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/react-dom",
+      "category": "library",
+      "version": "^19.1.2",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/retry",
+      "category": "library",
+      "version": "0.12.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/sinon",
+      "category": "library",
+      "version": "^21.0.1",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/tar",
+      "category": "library",
+      "version": "^7.0.87",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/yauzl",
+      "category": "library",
+      "version": "^2.10.3",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@types/yazl",
+      "category": "library",
+      "version": "^2.4.6",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "category": "library",
+      "version": "^4.4.1",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@xyflow/react",
+      "category": "library",
+      "version": "^12.4.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "React",
+      "category": "framework",
+      "version": "^19.1.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "React DOM",
+      "category": "library",
+      "version": "^19.1.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "Vite",
+      "category": "tool",
+      "version": "^6.3.3",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "ajv",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "ajv-formats",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "chokidar",
+      "category": "library",
+      "version": "^4.0.3",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "ignore",
+      "category": "library",
+      "version": "^5.3.2",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "jimp",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "js-yaml",
+      "category": "library",
+      "version": "^4.1.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "linkedom",
+      "category": "library",
+      "version": "^0.18.12",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "node-pty",
+      "category": "library",
+      "version": "^1.1.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "openai",
+      "category": "library",
+      "version": "^6.34.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "pathe",
+      "category": "library",
+      "version": "^2.0.3",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "picomatch",
+      "category": "library",
+      "version": "^4.0.4",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "retry",
+      "category": "library",
+      "version": "0.13.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "sinon",
+      "category": "library",
+      "version": "^22.0.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "smol-toml",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "socks",
+      "category": "library",
+      "version": "^2.8.9",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "tar",
+      "category": "library",
+      "version": "^7.5.13",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "ts-morph",
+      "category": "library",
+      "version": "^28.0.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "tsx",
+      "category": "library",
+      "version": "^4.21.0",
+      "dev": true,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "ulid",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "undici",
+      "category": "library",
+      "version": "^7.27.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "yauzl",
+      "category": "library",
+      "version": "^3.3.0",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "yazl",
+      "category": "library",
+      "version": "^3.3.1",
+      "dev": false,
+      "source": "packages/agent-core-v2/package.json"
+    },
+    {
+      "name": "@antfu/utils",
+      "category": "library",
+      "version": "^9.3.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@jsquash/webp",
+      "category": "library",
+      "version": "^1.5.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@modelcontextprotocol/sdk",
+      "category": "library",
+      "version": "^1.29.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kaos",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-oauth",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kosong",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@moonshot-ai/protocol",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@mozilla/readability",
+      "category": "library",
+      "version": "^0.6.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/js-yaml",
+      "category": "library",
+      "version": "^4.0.9",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/nunjucks",
+      "category": "library",
+      "version": "^3.2.6",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/picomatch",
+      "category": "library",
+      "version": "^4.0.3",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/proper-lockfile",
+      "category": "library",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/regexp.escape",
+      "category": "library",
+      "version": "^2.0.0",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/retry",
+      "category": "library",
+      "version": "0.12.0",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/sinon",
+      "category": "library",
+      "version": "^21.0.1",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/tar",
+      "category": "library",
+      "version": "^7.0.87",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/yauzl",
+      "category": "library",
+      "version": "^2.10.3",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/yazl",
+      "category": "library",
+      "version": "^2.4.6",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "ajv",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "ajv-formats",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "chokidar",
+      "category": "library",
+      "version": "^4.0.3",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "ignore",
+      "category": "library",
+      "version": "^5.3.2",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "jimp",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "js-yaml",
+      "category": "library",
+      "version": "^4.1.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "linkedom",
+      "category": "library",
+      "version": "^0.18.12",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "node-pty",
+      "category": "library",
+      "version": "^1.1.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "nunjucks",
+      "category": "library",
+      "version": "^3.2.4",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "open",
+      "category": "library",
+      "version": "^10.2.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "pathe",
+      "category": "library",
+      "version": "^2.0.3",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "picomatch",
+      "category": "library",
+      "version": "^4.0.4",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "proper-lockfile",
+      "category": "library",
+      "version": "^4.1.2",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "regexp.escape",
+      "category": "library",
+      "version": "^2.0.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "retry",
+      "category": "library",
+      "version": "0.13.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "sinon",
+      "category": "library",
+      "version": "^22.0.0",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "smol-toml",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "socks",
+      "category": "library",
+      "version": "^2.8.9",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "tar",
+      "category": "library",
+      "version": "^7.5.13",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "ulid",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "undici",
+      "category": "library",
+      "version": "^7.27.1",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "yauzl",
+      "category": "library",
+      "version": "^3.3.0",
+      "dev": false,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "yazl",
+      "category": "library",
+      "version": "^3.3.1",
+      "dev": true,
+      "source": "packages/agent-core/package.json"
+    },
+    {
+      "name": "@types/ssh2",
+      "category": "library",
+      "version": "^1.15.5",
+      "dev": true,
+      "source": "packages/kaos/package.json"
+    },
+    {
+      "name": "pathe",
+      "category": "library",
+      "version": "^2.0.3",
+      "dev": false,
+      "source": "packages/kaos/package.json"
+    },
+    {
+      "name": "ssh2",
+      "category": "library",
+      "version": "^1.17.0",
+      "dev": false,
+      "source": "packages/kaos/package.json"
+    },
+    {
+      "name": "@fastify/multipart",
+      "category": "library",
+      "version": "^10.0.0",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "@fastify/swagger",
+      "category": "library",
+      "version": "^9.7.0",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core-v2",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "@moonshot-ai/transcript",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "@types/bcryptjs",
+      "category": "library",
+      "version": "^2.4.6",
+      "dev": true,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "@types/ws",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": true,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "Fastify",
+      "category": "framework",
+      "version": "^5.1.0",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "catalog:",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "bcryptjs",
+      "category": "library",
+      "version": "^2.4.3",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "pino",
+      "category": "library",
+      "version": "^9.5.0",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "smol-toml",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "tsx",
+      "category": "library",
+      "version": "^4.21.0",
+      "dev": true,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "ulid",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "ws",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": false,
+      "source": "packages/kap-server/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core-v2",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/klient/package.json"
+    },
+    {
+      "name": "@moonshot-ai/protocol",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "packages/klient/package.json"
+    },
+    {
+      "name": "@types/ws",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": true,
+      "source": "packages/klient/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "catalog:",
+      "dev": false,
+      "source": "packages/klient/package.json"
+    },
+    {
+      "name": "ulid",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": true,
+      "source": "packages/klient/package.json"
+    },
+    {
+      "name": "ws",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": true,
+      "source": "packages/klient/package.json"
+    },
+    {
+      "name": "@anthropic-ai/sdk",
+      "category": "library",
+      "version": "^0.95.2",
+      "dev": false,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "@google/genai",
+      "category": "library",
+      "version": "^1.49.0",
+      "dev": false,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": false,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "ajv",
+      "category": "library",
+      "version": "^8.18.0",
+      "dev": true,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "ajv-formats",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": true,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "openai",
+      "category": "library",
+      "version": "^6.34.0",
+      "dev": false,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "zod-to-json-schema",
+      "category": "library",
+      "version": "^3.25.2",
+      "dev": false,
+      "source": "packages/kosong/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": false,
+      "source": "packages/migration-legacy/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kaos",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "packages/migration-legacy/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": false,
+      "source": "packages/migration-legacy/package.json"
+    },
+    {
+      "name": "smol-toml",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/migration-legacy/package.json"
+    },
+    {
+      "name": "@antfu/utils",
+      "category": "library",
+      "version": "^9.3.0",
+      "dev": false,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "@moonshot-ai/agent-core",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kaos",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kimi-code-oauth",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "@moonshot-ai/kosong",
+      "category": "library",
+      "version": "workspace:^",
+      "dev": true,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "@types/yazl",
+      "category": "library",
+      "version": "^2.4.6",
+      "dev": true,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": false,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "jimp",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": true,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "smol-toml",
+      "category": "library",
+      "version": "^1.6.1",
+      "dev": false,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "yazl",
+      "category": "library",
+      "version": "^3.3.1",
+      "dev": false,
+      "source": "packages/node-sdk/package.json"
+    },
+    {
+      "name": "@types/proper-lockfile",
+      "category": "library",
+      "version": "^4.1.4",
+      "dev": true,
+      "source": "packages/oauth/package.json"
+    },
+    {
+      "name": "proper-lockfile",
+      "category": "library",
+      "version": "^4.1.2",
+      "dev": false,
+      "source": "packages/oauth/package.json"
+    },
+    {
+      "name": "@xterm/headless",
+      "category": "library",
+      "version": "5.5.0",
+      "dev": true,
+      "source": "packages/pi-tui/package.json"
+    },
+    {
+      "name": "chalk",
+      "category": "library",
+      "version": "^5.4.1",
+      "dev": true,
+      "source": "packages/pi-tui/package.json"
+    },
+    {
+      "name": "get-east-asian-width",
+      "category": "library",
+      "version": "1.6.0",
+      "dev": false,
+      "source": "packages/pi-tui/package.json"
+    },
+    {
+      "name": "marked",
+      "category": "library",
+      "version": "18.0.5",
+      "dev": false,
+      "source": "packages/pi-tui/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "^4.3.6",
+      "dev": false,
+      "source": "packages/protocol/package.json"
+    },
+    {
+      "name": "ulid",
+      "category": "library",
+      "version": "^3.0.1",
+      "dev": false,
+      "source": "packages/protocol/package.json"
+    },
+    {
+      "name": "Zod",
+      "category": "library",
+      "version": "catalog:",
+      "dev": false,
+      "source": "packages/transcript/package.json"
+    }
+  ]
+}
