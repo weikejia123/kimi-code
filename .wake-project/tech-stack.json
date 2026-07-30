@@ -1,8 +1,8 @@
 {
   "schema_version": "9",
   "project_id": "019fa34f-c657-7382-ab93-6295c50c34ea",
-  "scan_id": "019fa34f-c8a2-7841-82ad-d5d0c357bd5d",
-  "scanned_at": "2026-07-27T11:22:22Z",
+  "scan_id": "019fb0ad-b1a6-7d13-96e5-29ad59a3a164",
+  "scanned_at": "2026-07-30T01:40:00Z",
   "tech_stack": [
     {
       "name": "@moonshot-ai/acp-adapter",

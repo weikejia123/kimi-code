@@ -1,9 +1,9 @@
 {
   "schema_version": "9",
   "project_id": "019fa34f-c657-7382-ab93-6295c50c34ea",
-  "scan_id": "019fa34f-c8a2-7841-82ad-d5d0c357bd5d",
-  "scanned_at": "2026-07-27T11:22:22Z",
-  "duration_ms": 261,
+  "scan_id": "019fb0ad-b1a6-7d13-96e5-29ad59a3a164",
+  "scanned_at": "2026-07-30T01:40:00Z",
+  "duration_ms": 266,
   "is_git_repo": true,
   "git": {
     "root": "/Users/weikejia/CODE/my-agent-group/projects/coder-agent/kimi-code",
@@ -31,14 +31,14 @@
         "repo": "kimi-code"
       }
     ],
-    "head": "bf8e967d5",
+    "head": "58f78c24b",
     "path_prefix": "",
     "has_commit_hooks": false,
     "has_upstream": true,
     "is_detached_head": false,
-    "dirty_file_count": 0,
+    "dirty_file_count": 1,
     "has_untracked": true,
-    "ahead_count": 0,
+    "ahead_count": 1,
     "behind_count": 0,
     "latest_tag": "@moonshot-ai/kimi-code@0.29.1",
     "submodules": []
@@ -234,7 +234,7 @@
   ],
   "timeline": {
     "first_commit_at": "2026-05-22T15:54:50+08:00",
-    "last_commit_at": "2026-07-26T14:32:59+08:00",
+    "last_commit_at": "2026-07-27T19:22:22+08:00",
     "shallow_clone": false,
     "last_file_modified_at": "2026-07-26T14:07:40Z",
     "last_core_file_modified_at": "2026-07-26T13:57:15Z",
