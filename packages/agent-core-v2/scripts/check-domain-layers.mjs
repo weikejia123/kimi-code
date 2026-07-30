@@ -108,6 +108,11 @@ const DOMAIN_LAYER = new Map([
   // It wraps the `_base` `StateRegistry` and depends on nothing else, so any
   // domain may hold its plain-data state through it; sits in L1 beside `event`.
   ['state', 1],
+  // `bashParser` is the App-scope adapter over the pure
+  // `@moonshot-ai/tree-sitter-bash` package (bash source → syntax tree DTO).
+  // It injects no services, so it sits in L1 beside the other pure
+  // capabilities.
+  ['bashParser', 1],
   // persistence/ and os/ — the two-level scopes. `interface` holds contracts
   // (same layer as the old domains they replace); `backends` holds
   // implementations that may depend on cross-domain services at various layers.
@@ -159,6 +164,7 @@ const DOMAIN_LAYER = new Map([
   ['modelCatalog', 3],
   ['agentProfileCatalog', 3],
   ['agentFileCatalog', 3],
+  ['hostIdentity', 3],
   // L4 — agent behaviour
   // `activityView` is the Agent-scope read model folding the agent's own event
   // bus into the activity projection (`agent.activity.updated`); it owns no
@@ -198,7 +204,6 @@ const DOMAIN_LAYER = new Map([
   // the domain to L4 beside the other agent-behaviour tools.
   ['edit', 4],
   ['llmRequester', 4],
-  ['faultInjection', 4],
   ['profile', 4],
   ['prompt', 4],
   // `shellCommand` orchestrates user `!` commands through `toolRegistry` (L3),
@@ -227,6 +232,11 @@ const DOMAIN_LAYER = new Map([
   ['sessionExport', 6],
   ['interaction', 6],
   ['sessionMetadata', 6],
+  // `undo` owns the undo pipeline (quiesce → context.undo → reconcile): it
+  // coordinates L4 agent domains (loop / prompt / contextMemory /
+  // fullCompaction), L5 task delivery, and `sessionMetadata`, so it sits in
+  // L6 beside the other cross-agent coordinators.
+  ['undo', 6],
   ['sessionActivity', 6],
   ['session', 6],
   ['terminal', 6],

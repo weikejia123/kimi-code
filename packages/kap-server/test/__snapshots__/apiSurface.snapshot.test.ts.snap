@@ -122,6 +122,10 @@ exports[`API surface snapshot > matches the documented v2 route table and meta e
     ],
     [
       "GET",
+      "/api/v1/oauth/userinfo",
+    ],
+    [
+      "GET",
       "/api/v1/providers",
     ],
     [
@@ -266,6 +270,10 @@ exports[`API surface snapshot > matches the documented v2 route table and meta e
     ],
     [
       "POST",
+      "/api/v1/fs:mkdir",
+    ],
+    [
+      "POST",
       "/api/v1/gui/store/clear",
     ],
     [
@@ -303,6 +311,10 @@ exports[`API surface snapshot > matches the documented v2 route table and meta e
     [
       "POST",
       "/api/v1/providers/{tail}",
+    ],
+    [
+      "POST",
+      "/api/v1/search",
     ],
     [
       "POST",

@@ -21,7 +21,9 @@ export interface ExportSessionPayload {
   readonly sessionId: string;
   readonly outputPath?: string | undefined;
   readonly includeGlobalLog?: boolean | undefined;
+  readonly includeDesktopLog?: boolean;
   readonly version: string;
+  readonly desktopVersion?: string;
   readonly installSource?: string | undefined;
   readonly shellEnv?: ShellEnvironment | undefined;
 }
@@ -39,7 +41,9 @@ export interface ExportSessionManifest {
   readonly workspaceDir?: string | undefined;
   readonly sessionLogPath?: string | undefined;
   readonly globalLogPath?: string | undefined;
+  readonly desktopLogPath?: string;
   readonly webLogPath?: string;
+  readonly desktopVersion?: string;
   readonly installSource?: string | undefined;
   readonly shellEnv?: ShellEnvironment | undefined;
 }
