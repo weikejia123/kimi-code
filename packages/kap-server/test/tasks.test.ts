@@ -5,7 +5,7 @@ import { join } from 'node:path';
 import {
   IAgentLifecycleService,
   IAgentTaskService,
-  ISessionLifecycleService,
+  getLiveSessionById,
   IModelCatalog,
   type AgentTask,
 } from '@moonshot-ai/agent-core-v2';
@@ -126,7 +126,7 @@ describe('server-v2 /api/v1/sessions/{sid}/tasks', () => {
   // (server-v2 gap G10); create it here, then register fake tasks
   // directly into its IAgentTaskService to bypass the tool loop.
   async function mainAgentTasks(sessionId: string): Promise<IAgentTaskService> {
-    const session = server!.core.accessor.get(ISessionLifecycleService).get(sessionId);
+    const session = getLiveSessionById(server!.core.accessor, sessionId);
     if (session === undefined) throw new Error(`session ${sessionId} not found`);
     const agent =
       session.accessor.get(IAgentLifecycleService).get('main') ??
@@ -153,7 +153,14 @@ describe('server-v2 /api/v1/sessions/{sid}/tasks', () => {
           case 'process':
             return { ...base, kind: 'process', command: 'echo hi', pid: 0, exitCode: null };
           case 'agent':
-            return { ...base, kind: 'agent', agentId: 'sub-1', subagentType: 'explore' };
+            return {
+              ...base,
+              kind: 'agent',
+              agentId: 'sub-1',
+              subagentType: 'explore',
+              model: 'provider/secondary',
+              thinkingEffort: 'low',
+            };
           case 'question':
             return { ...base, kind: 'question', questionCount: 1 };
         }
@@ -205,6 +212,8 @@ describe('server-v2 /api/v1/sessions/{sid}/tasks', () => {
       session_id: id,
       kind: 'subagent', // agent → subagent
       status: 'running',
+      model: 'provider/secondary', // subagent tasks expose the bound display model
+      thinking_effort: 'low', // …and its effective thinking effort
     });
     expect(byId.get(agentId)?.command).toBeUndefined();
 
